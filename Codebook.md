@@ -20,166 +20,165 @@ Variables
 These are the variables used in the tidyData dataset: 
 
 
-subjectId - subject performing the activity
+SubjectID - subject performing the activity
 
-activityId - id number of activity	
+Activity - activity name 	
 
-activityType - type of activity measured
+tBodyAcc-mean()-X - Average time-domain body acceleration	
 
-timeBodyAccMean-X - Average time-domain body acceleration	
+tBodyAcc-mean()-Y - Average time-domain body acceleration
 
-timeBodyAccMean-Y - Average time-domain body acceleration
+tBodyAcc-mean()-Z - Average time-domain body acceleration
 
-timeBodyAccMean-Z - Average time-domain body acceleration
+tBodyAcc-std()-X - Standard deviation of the time-domain body acceleration 
 
-timeBodyAcc-std-X - Standard deviation of the time-domain body acceleration 
+tBodyAcc-std()-Y - Standard deviation of the time-domain body acceleration 
 
-timeBodyAcc-std-Y - Standard deviation of the time-domain body acceleration 
+tBodyAcc-std()-Z - Standard deviation of the time-domain body acceleration 
 
-timeBodyAcc-std-Z - Standard deviation of the time-domain body acceleration 
+tGravityAcc-mean()-X - Average time-domain gravity acceleration 
 
-timeGravityAccMean-X - Average time-domain gravity acceleration 
+tGravityAcc-mean()-Y - Average time-domain gravity acceleration 
 
-timeGravityAccMean-Y - Average time-domain gravity acceleration 
+tGravityAcc-mean()-Z - Average time-domain gravity acceleration 
 
-timeGravityAccMean-Z - Average time-domain gravity acceleration 
+tGravityAcc-std()-X - Standard deviation of the time-domain gravity acceleration 
 
-timeGravityAcc-std-X - Standard deviation of the time-domain gravity acceleration 
+tGravityAcc-std()-Y - Standard deviation of the time-domain gravity acceleration 
 
-timeGravityAcc-std-Y - Standard deviation of the time-domain gravity acceleration 
+tGravityAcc-std()-Z - Standard deviation of the time-domain gravity acceleration 
 
-timeGravityAcc-std-Z - Standard deviation of the time-domain gravity acceleration 
+tBodyAccJerk-mean()-X - Average time-domain body acceleration jerk (derivation of the acceleration in time) 
 
-timeBodyAccJerkMean-X - Average time-domain body acceleration jerk (derivation of the acceleration in time) 
+tBodyAccJerk-mean()-Y - Average time-domain body acceleration jerk (derivation of the acceleration in time)
 
-timeBodyAccJerkMean-Y - Average time-domain body acceleration jerk (derivation of the acceleration in time) 
+tBodyAccJerk-mean()-Z - Average time-domain body acceleration jerk (derivation of the acceleration in time) 
 
-timeBodyAccJerkMean-Z - Average time-domain body acceleration jerk (derivation of the acceleration in time) 
+tBodyAccJerk-std()-X - Standard deviation of the time-domain body acceleration jerk (derivation of the acceleration in time)
 
-timeBodyAccJerk-std-X - Standard deviation of the time-domain body acceleration jerk (derivation of the acceleration in time)
+tBodyAccJerk-std()-Y - Standard deviation of the time-domain body acceleration jerk (derivation of the acceleration in time)
 
-timeBodyAccJerk-std-Y - Standard deviation of the time-domain body acceleration jerk (derivation of the acceleration in time)
+tBodyAccJerk-std()-Z Standard deviation of the time-domain body acceleration jerk (derivation of the acceleration in time)
 
-timeBodyAccJerk-std-Z Standard deviation of the time-domain body acceleration jerk (derivation of the acceleration in time)
+tBodyGyro-mean()-X - Average time-domain body angular velocity
 
-timeBodyGyroMean-X - Average time-domain body angular velocity
+tBodyGyro-mean()-Y - Average time-domain body angular velocity
 
-timeBodyGyroMean-Y - Average time-domain body angular velocity
+tBodyGyro-mean()-Z - Average time-domain body angular velocity
 
-timeBodyGyroMean-Z - Average time-domain body angular velocity
+tBodyGyro-std()-X - Standard deviation of the time-domain body angular velocity 
 
-timeBodyGyro-std-X - Standard deviation of the time-domain body angular velocity 
+tBodyGyro-std()-Y - Standard deviation of the time-domain body angular velocity 
 
-timeBodyGyro-std-Y - Standard deviation of the time-domain body angular velocity 
+tBodyGyro-std()-Z - Standard deviation of the time-domain body angular velocity 
 
-timeBodyGyro-std-Z - Standard deviation of the time-domain body angular velocity 
+tBodyGyroJerk-mean()-X - Average time-domain body angular velocity jerk (derivation of the angular velocity in time) 
 
-timeBodyGyroJerkMean-X - Average time-domain body angular velocity jerk (derivation of the angular velocity in time) 
+tBodyGyroJerk-mean()-Y - Average time-domain body angular velocity jerk (derivation of the angular velocity in time) 
 
-timeBodyGyroJerkMean-Y - Average time-domain body angular velocity jerk (derivation of the angular velocity in time) 
+tBodyGyroJerk-mean()-Z - Average time-domain body angular velocity jerk (derivation of the angular velocity in time) 
 
-timeBodyGyroJerkMean-Z - Average time-domain body angular velocity jerk (derivation of the angular velocity in time) 
+tBodyGyroJerk-std()-X - Standard deviation of the time-domain body angular velocity jerk (derivation of the angular velocity in time) 
 
-timeBodyGyroJerk-std-X - Standard deviation of the time-domain body angular velocity jerk (derivation of the angular velocity in time) 
+tBodyGyroJerk-std()-Y - Standard deviation of the time-domain body angular velocity jerk (derivation of the angular velocity in time) 
 
-timeBodyGyroJerk-std-Y - Standard deviation of the time-domain body angular velocity jerk (derivation of the angular velocity in time) 
+tBodyGyroJerk-std()-Z - Standard deviation of the time-domain body angular velocity jerk (derivation of the angular velocity in time) 
 
-timeBodyGyroJerk-std-Z - Standard deviation of the time-domain body angular velocity jerk (derivation of the angular velocity in time) 
+tBodyAccMag-mean() - Average of the time-domain magnitude of body acceleration
 
-timeBodyAccMagnitudeMean - Average of the time-domain magnitude of body acceleration
+tBodyAccMag-std() - Standard deviation of the time-domain magnitude of body acceleration
 
-timeBodyAccMagnitudeStdDev - Standard deviation of the time-domain magnitude of body acceleration
+tGravityAccMag-mean() - Average of the time-domain magnitude of gravity acceleration
 
-timeGravityAccMagnitudeMean - Average of the time-domain magnitude of gravity acceleration
+tGravityAccMag-std() - Standard deviation of the time-domain magnitude of gravity acceleration
 
-timeGravityAccMagnitudeStdDev - Standard deviation of the time-domain magnitude of gravity acceleration
+tBodyAccJerkMag-mean() - Average of the time-domain magnitude of body acceleration jerk (derivation of the acceleration in time)
 
-timeBodyAccJerkMagnitudeMean - Average of the time-domain magnitude of body acceleration jerk (derivation of the acceleration in time)
+tBodyAccJerkMag-std() - Standard deviation of the time-domain magnitude of body acceleration jerk (derivation of the acceleration in time)
 
-timeBodyAccJerkMagnitudeStdDev - Standard deviation of the time-domain magnitude of body acceleration jerk (derivation of the acceleration in time)
+tBodyGyroMag-mean() - Average of the time-domain magnitude of body angular velocity
 
-timeBodyGyroMagnitudeMean - Average of the time-domain magnitude of body angular velocity
+tBodyGyroMag-std() - Standard deviation of the time-domain magnitude of body angular velocity
 
-timeBodyGyroMagnitudeStdDev - Standard deviation of the time-domain magnitude of body angular velocity
+tBodyGyroJerkMag-mean() - Average of the time-domain magnitude of body angular velocity jerk (derivation of the angular velocity in time)
 
-timeBodyGyroJerkMagnitudeMean - Average of the time-domain magnitude of body angular velocity jerk (derivation of the angular velocity in time)
+tBodyGyroJerkMag-std() - Standard deviation of the time-domain magnitude of body angular velocity jerk (derivation of the angular velocity in time)
 
-timeBodyGyroJerkMagnitudeStdDev	- Standard deviation of the time-domain magnitude of body angular velocity jerk (derivation of the angular velocity in time)
+fBodyAcc-mean()-X - Average frequency-domain body acceleration
 
-freqBodyAccMean-X - Average frequency-domain body acceleration
+fBodyAcc-mean()-Y - Average frequency-domain body acceleration
 
-freqBodyAccMean-Y - Average frequency-domain body acceleration
+fBodyAcc-mean()-Z - Average frequency-domain body acceleration
 
-freqBodyAccMean-Z - Average frequency-domain body acceleration
+fBodyAcc-std()-X - Standard deviation of the frequency-domain body acceleration
 
-freqBodyAcc-std-X - Standard deviation of the frequency-domain body acceleration
+fBodyAcc-std()-Y - Standard deviation of the frequency-domain body acceleration
 
-freqBodyAcc-std-Y - Standard deviation of the frequency-domain body acceleration
+fBodyAcc-std()-Z - Standard deviation of the frequency-domain body acceleration
 
-freqBodyAcc-std-Z - Standard deviation of the frequency-domain body acceleration
+fBodyAcc-meanFreq()-X - Weighted average of the frequency components of the frequency-domain body acceleration
 
-freqBodyAccMeanFreq-X - Weighted average of the frequency components of the frequency-domain body acceleration
+fBodyAcc-meanFreq()-Y - Weighted average of the frequency components of the frequency-domain body acceleration
 
-freqBodyAccMeanFreq-Y - Weighted average of the frequency components of the frequency-domain body acceleration
+fBodyAcc-meanFreq()-Z - Weighted average of the frequency components of the frequency-domain body acceleration
 
-freqBodyAccMeanFreq-Z - Weighted average of the frequency components of the frequency-domain body acceleration
+fBodyAccJerk-men()-X - Average frequency-domain body acceleration jerk (derivation of the acceleration in time) 
 
-freqBodyAccJerkMean-X - Average frequency-domain body acceleration jerk (derivation of the acceleration in time) 
+fBodyAccJerk-mean()-Y - Average frequency-domain body acceleration jerk (derivation of the acceleration in time) 
 
-freqBodyAccJerkMean-Y - Average frequency-domain body acceleration jerk (derivation of the acceleration in time) 
+fBodyAccJerk-mean()-Z - Average frequency-domain body acceleration jerk (derivation of the acceleration in time) 
 
-freqBodyAccJerkMean-Z - Average frequency-domain body acceleration jerk (derivation of the acceleration in time) 
+fBodyAccJerk-std()-X - Standard deviation of the frequency-domain body acceleration jerk (derivation of the acceleration in time)
 
-freqBodyAccJerk-std-X - Standard deviation of the frequency-domain body acceleration jerk (derivation of the acceleration in time)
+fBodyAccJerk-std()-Y - Standard deviation of the frequency-domain body acceleration jerk (derivation of the acceleration in time)
 
-freqBodyAccJerk-std-Y - Standard deviation of the frequency-domain body acceleration jerk (derivation of the acceleration in time)
+fBodyAccJerk-std()-Z - Standard deviation of the frequency-domain body acceleration jerk (derivation of the acceleration in time)
 
-freqBodyAccJerk-std-Z - Standard deviation of the frequency-domain body acceleration jerk (derivation of the acceleration in time)
+fBodyAccJerk-meanFreq()-X - Weighted average of the frequency components of the frequency-domain body acceleration jerk (derivation of the acceleration in time)
 
-freqBodyAccJerkMeanFreq-X - Weighted average of the frequency components of the frequency-domain body acceleration jerk (derivation of the acceleration in time)
+fBodyAccJerk-meanFreq()-Y - Weighted average of the frequency components of the frequency-domain body acceleration jerk (derivation of the acceleration in time)
 
-freqBodyAccJerkMeanFreq-Y - Weighted average of the frequency components of the frequency-domain body acceleration jerk (derivation of the acceleration in time)
+fBodyAccJerk-meanFreq()-Z - Weighted average of the frequency components of the frequency-domain body acceleration jerk (derivation of the acceleration in time)
 
-freqBodyAccJerkMeanFreq-Z - Weighted average of the frequency components of the frequency-domain body acceleration jerk (derivation of the acceleration in time)
+fBodyGyro-mean()-X - Average frequency-domain body angular velocity
 
-freqBodyGyroMean-X - Average frequency-domain body angular velocit
+fBodyGyro-mean()-Y - Average frequency-domain body angular velocity
 
-freqBodyGyroMean-Y - Average frequency-domain body angular velocit
+fBodyGyro-mean()-Z - Average frequency-domain body angular velocity
 
-freqBodyGyroMean-Z - Average frequency-domain body angular velocit
+fBodyGyro-std()-X - Standard deviation of the frequency-domain body angular velocity
 
-freqBodyGyro-std-X - Standard deviation of the frequency-domain body angular velocity
+fBodyGyro-std()-Y - Standard deviation of the frequency-domain body angular velocity
 
-freqBodyGyro-std-Y - Standard deviation of the frequency-domain body angular velocity
+fBodyGyro-std()-Z - Standard deviation of the frequency-domain body angular velocity
 
-freqBodyGyro-std-Z - Standard deviation of the frequency-domain body angular velocity
+fBodyGyro-meanFreq()-X - Weighted average of the frequency components of the frequency-domain body angular velocity 
 
-freqBodyGyroMeanFreq-X - Weighted average of the frequency components of the frequency-domain body angular velocity 
+fBodyGyro-meanFreq()-Y - Weighted average of the frequency components of the frequency-domain body angular velocity 
 
-freqBodyGyroMeanFreq-Y - Weighted average of the frequency components of the frequency-domain body angular velocity 
+fBodyGyro-meanFreq()-Z - Weighted average of the frequency components of the frequency-domain body angular velocity 
 
-freqBodyGyroMeanFreq-Z - Weighted average of the frequency components of the frequency-domain body angular velocity 
+fBodyAccMag-mean() - Average of the frequency components of the frequency-domain magnitude of body acceleration
 
-freqBodyAccMagnitudeMean - Average of the frequency components of the frequency-domain magnitude of body acceleration:
+fBodyAccMag-std() - Standard deviation of the frequency components of the frequency-domain magnitude of body acceleration
 
-freqBodyAccMagnitudeStdDev - Standard deviation of the frequency components of the frequency-domain magnitude of body acceleration:
+fBodyAccMag-meanFreq() - Weighted average of the frequency components of the frequency-domain magnitude of body acceleration
 
-freqBodyAccMagnitudeMeanFreq - Weighted average of the frequency components of the frequency-domain magnitude of body acceleration:
+fBodyBodyAccJerkMag-mean() - Average of the frequency components of the frequency-domain magnitude of body acceleration jerk (derivation of the acceleration in time)
 
-freqBodyAccJerkMagnitudeMean - Average of the frequency components of the frequency-domain magnitude of body acceleration jerk (derivation of the acceleration in time)
+fBodyBodyAccJerkMag-std() - Standard deviation of the frequency components of the frequency-domain magnitude of body acceleration jerk (derivation of the acceleration in time)
 
-freqBodyAccJerkMagnitudeStdDev - Standard deviation of the frequency components of the frequency-domain magnitude of body acceleration jerk (derivation of the acceleration in time)
+fBodyBodyAccJerkMag-meanFreq() - Weighted average of the frequency components of the frequency-domain magnitude of body acceleration jerk (derivation of the acceleration in time)
 
-freqBodyAccJerkMagnitudeMeanFreq - Weighted average of the frequency components of the frequency-domain magnitude of body acceleration jerk (derivation of the acceleration in time)	
+fBodyBodyGyroMag-mean() - Average of the frequency components of the frequency-domain magnitude of body angular velocity
 
-freqBodyGyroMagnitudeMean - Average of the frequency components of the frequency-domain magnitude of body angular velocity
+fBodyBodyGyroMag-std() - Standard deviation of the frequency components of the frequency-domain magnitude of body angular velocity
 
-freqBodyGyroMagnitudeStdDev - Standard deviation of the frequency components of the frequency-domain magnitude of body angular velocity
+fBodyBodyGyroMag-meanFreq() - Weighted average of the frequency components of the frequency-domain magnitude of body angular velocity
 
-freqBodyGyroMagnitudeMeanFreq - Weighted average of the frequency components of the frequency-domain magnitude of body angular velocity
+fBodyBodyGyroJerkMag-mean() - Average of the frequency components of the frequency-domain magnitude of body angular velocity jerk (derivation of the angular velocity in time)
 
-freqBodyGyroJerkMagnitudeMean - Average of the frequency components of the frequency-domain magnitude of body angular velocity jerk (derivation of the angular velocity in time)
+fBodyBodyGyroJerkMag-std() - Standard deviation of the frequency components of the frequency-domain magnitude of body angular velocity jerk (derivation of the angular velocity in time)
 
-freqBodyGyroJerkMagnitudeStdDev - Standard deviation of the frequency components of the frequency-domain magnitude of body angular velocity jerk (derivation of the angular velocity in time)
+fBodyBodyGyroJerkMag-meanFreq() - Weighted average of the frequency components of the frequency-domain magnitude of body angular velocity jerk (derivation of the angular velocity in time)
 
-freqBodyGyroJerkMagnitudeMeanFreq - Weighted average of the frequency components of the frequency-domain magnitude of body angular velocity jerk (derivation of the angular velocity in time)

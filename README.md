@@ -35,9 +35,8 @@ Project Steps
 
 1.Merge the training and the test sets to create one data set.
 
-	1.1 Set source directory
-	1.2 Downloaded zip file and unzipped using unzip function. 
-	1.3 Read the following files into R:
+	1.1 Downloaded zip file and unzipped using unzip function. 
+	1.2 Read the following files into R:
 
 		• features.txt		# Lists all the features i.e. measurements (ex. mean, s.d, var) from the data 
 		• activity_labels.txt	# Lists six activities performed in the experiement
@@ -48,25 +47,24 @@ Project Steps
 		• x_test.txt		# File containing observations in the test foler
 		• y_test.txt		# Activity labels for each observation in the x_test data set
 
-	1.4 Assign descriptive variable names to the imported data
-	1.5 Merge to create one dataset. 
+	1.3 Merge to create one dataset. 
 
 2.Extract only the measurements on the mean and standard deviation for each measurement. 
 
-	2.1 Create a logical vector that will be used to subset the data to include only subject id, activity, mean, & standard deviation.
+	2.1 Use grep function to subset the data to include only subject id, activity, mean, & standard deviation columns.
 
 
 3.Use descriptive activity names to name the activities in the data set.
 	
-	This was completed in step 1 when combining activityId with activityType.
+	3.1 Use join function from plyr package to join the data to the activity labels. 
 
 4.Appropriately label the data set with descriptive variable names. 
 
-	4.1 Used a For loop and gsub function to make the variable names more descriptiive. 
+	4.1 Remove unnecessary punctuation and make variable names more descriptiive. 
 
 5.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-	5.1 Used the aggregate function to subset the data and take the average of each variable for each avtivity and each subject. 
+	5.1 Used the ddply function to subset the data and take the average of each variable for each avtivity and each subject. 
 	5.2 Exported tidyData set to a text file. 
 
 
